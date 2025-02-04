@@ -1,0 +1,35 @@
+:root {
+  /* Browns */
+  --toasty: #d8a882;
+  --foam: #a47d60;
+  --mocha: #946440;
+  --coldbrew: #693f31;
+  --espresso: #333230;
+  /* Pinks */
+  --oyster: #eac3bf;
+  --pinkvelvet: #e77d77;
+  --rusticpink: #9f5448;
+  --truffle: #5a3735;
+  /* Golds */
+  --golden: #99783f;
+  --goldenrod: #bd7e0f;
+  --sandygold: #c59458;
+  --lightgold: #dcbaba;
+}
+
+header {
+  border: dotted green;
+  display: flex;
+}
+
+.logo-container {
+  border-color: yellowgreen solid;
+}
+
+nav {
+  border: yellow solid 5px;
+}
+
+nav li {
+  display: flex;
+}
