@@ -15,21 +15,59 @@
   --goldenrod: #bd7e0f;
   --sandygold: #c59458;
   --lightgold: #dcbaba;
+  --background: #f3ede0;
+}
+
+body {
+  box-sizing: border-box;
+  
 }
 
 header {
-  border: dotted green;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: dotted green;
+  background-color: var(--background);
+  
 }
 
 .logo-container {
   border-color: yellowgreen solid;
 }
-
-nav {
-  border: yellow solid 5px;
+.search {
+text-align: center;
+  /* border: yellow solid; */
+  width: 100%;
 }
 
-nav li {
+.search input{
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  border: dotted black;
+}
+
+nav {
+  width: 100%;
+  border: yellow solid 5px;
+
+
+}
+ul{
   display: flex;
+  justify-content: space-between;
+  flex-basis: content;
+  
+
+}
+
+
+nav a:link {
+  list-style: none;
+  text-decoration: none;
+  
+ 
 }
