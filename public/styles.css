@@ -71,3 +71,27 @@ nav a:link {
   
  
 }
+
+/* Footer Styling */
+footer{
+  background-color: var(--background);
+  border:solid yellow;
+display: flex;
+justify-content: space-between;
+ 
+}
+.social-links, .footer-links {
+  display: flex; 
+
+  border: solid yellow;
+}
+
+
+/* .footer-links, .social-links{
+
+} */
+
+.footer-links a:link, .social-links a:link{
+list-style-type: none;
+text-decoration: none;
+}
