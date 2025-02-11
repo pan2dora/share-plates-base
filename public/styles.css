@@ -98,7 +98,7 @@ text-decoration: none;
 
 /* Content */
 /* --------------------------------------CARDS -------------------------------------- */
-.card{
+.card-container{
   display: flex;
  
 }
