@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   /* Browns */
   --toasty: #d8a882;
@@ -19,86 +23,126 @@
 }
 
 body {
-  box-sizing: border-box;
-  
+  margin: 0;
 }
+/* Header */
 
 header {
   display: flex;
+  gap: 50px;
   justify-content: space-between;
+  /* 
+  align-items: center; */
+  /* border: dotted green 5px; */
+  /* height: 4rem; */
   align-items: center;
-  border: dotted green;
-  background-color: var(--background);
+  box-shadow: 0px -15px 30px 20px #000000;
+ height: 8rem;
+}
+
+
+
+header img {
+  border: solid red 5px;
+  
+  height: 100%;
   
 }
 
-.logo-container {
-  border-color: yellowgreen solid;
-}
-.search {
-text-align: center;
-  /* border: yellow solid; */
-  width: 100%;
+.fa-magnifying-glass {
+  color: black;
 }
 
-.search input{
-  text-align: center;
+/* Navigation Styling */
+
+.primary-navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  border: dotted green 5px;
+}
+
+.primary-navigation a {
+  color: brown;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 img {
-  width: 150px;
- 
+  width: 250px;
 }
-
-nav {
-  width: 100%;
-  border: yellow solid 5px;
-
-
-}
-ul{
+/* Footer Styling */
+footer {
+  background-color: var(--background);
+  border: solid yellow;
   display: flex;
   justify-content: space-between;
-  flex-basis: content;
-  
-
 }
-
-
-nav a:link {
-  list-style: none;
-  text-decoration: none;
-  
- 
-}
-
-/* Footer Styling */
-footer{
-  background-color: var(--background);
-  border:solid yellow;
-display: flex;
-justify-content: space-between;
- 
-}
-.social-links, .footer-links {
-  display: flex; 
+.social-links,
+.footer-links {
+  display: flex;
 
   border: solid yellow;
 }
-
 
 /* .footer-links, .social-links{
 
 } */
 
-.footer-links a:link, .social-links a:link{
-list-style-type: none;
-text-decoration: none;
+.footer-links a:link,
+.social-links a:link {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* Content */
 /* --------------------------------------CARDS -------------------------------------- */
-.card-container{
+.card-container {
   display: flex;
- 
 }
+
+/* -------------------------------------- Media Quires -------------------------------------- */
+
+/* Mobile 320-480*/
+
+@media screen and (max-width: 480px) {
+  header img {
+    display: none;
+  }
+
+  .card-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* Tablets 481-768 */
+/* @media screen and (min-width: 481px) and (max-width: 768px) {
+} */
+
+/* Desktop 769-1024*/
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+} */
+
+/* Code snippets */
+/* .search {
+  text-align: center;
+ 
+  width: 100%;
+} */
+
+/* .search input {
+  text-align: center;
+} */
+
+/* nav {
+  width: 100%;
+  border: yellow solid 5px;
+} */
+/* ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: content;
+} */
