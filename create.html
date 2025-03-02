@@ -8,31 +8,42 @@
     <title>Share Plate</title>
   </head>
   <body>
-    <header>
-      <div class="logo-container">
-        <!-----------------------------logo goes here ------------------------------------------>
+     <!-- Header & Primary Nav container -->
+     <div class="nav-wrapper">
+      <header>
+        <!--  Hambuger -->
+        <i class="fa-solid fa-bars"></i>
+        <!-----------------------------Logo ------------------------------------------>
         <img
           src="public/images/transparentlogo.svg"
           alt="Animation of plate with share plate in the middle"
+          class="nav-logo"
         />
-      </div>
-      <nav>
-        <!-- Start of Navbar -->
+        <!-- Start of Primary Navbar -->
 
-        <!-----------------------------Navbar Links------------------------------------------>
-
-        <ul class="nav-links">
-          <a href="#"><li>Discover</li></a>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Test</li></a>
-        </ul>
+        <nav class="primary-navigation">
+          <!-----------------------------Navbar Links------------------------------------------>
+          <ul class="nav-links">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="discover.html">Test</a></li>
+          </ul>
+        </nav>
 
         <!-----------------------------Search ------------------------------------------>
-      </nav>
-      <div class="search">
-        <input type="text" class="search-bar" placeholder="Search..." />
-      </div>
-    </header>
+
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search..." />
+          <!-- Search Icon -->
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Profile Icon - This will eventually become a drop down-->
+        <div>
+          <i class="fa-solid fa-circle-user"></i>
+        </div>
+      </header>
+    </div>
     <!----------------------------Content---------------------------------------->
     <div class="create-form">
       <form>
