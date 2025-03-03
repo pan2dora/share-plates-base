@@ -147,8 +147,8 @@ border-radius: 20px 20px 0 0;
   margin: 0;
 }
 
-/* Login Page */
-.login-container, .create-form-container{
+/* Forms: Login Page  */
+.login-container, .create-form-container, .signup-container{
   width: 100%;
   height: 100%;
   display: flex;
@@ -158,7 +158,7 @@ border-radius: 20px 20px 0 0;
  
 }
 
-.login-container img{
+.login-container, .signup-container img{
   width: auto;
 }
 
@@ -166,24 +166,24 @@ border-radius: 20px 20px 0 0;
 /* Discovery page */
 
 /* Create Page */
-.create-form-container, .update-container{
+.create-form-container, .update-container, .signup-container{
   border: orange solid 5px;
   text-align: left;
 }
 
-.create-form,.update-form{
+.create-form,.update-form,.signup-form{
  border: black solid 2px;
  display: flex;
  flex-direction: column;
  height: 100%;
 }
 
-.create-form label, .update-form label{
+.create-form label, .update-form label, .signup-form label{
   border: greenyellow solid 1px;
   
 }
 
-.create-form input, .update-form input{
+.create-form input, .update-form input .signup-form input{
   border: pink solid 1px;
   width: auto;
   height: 20px;
