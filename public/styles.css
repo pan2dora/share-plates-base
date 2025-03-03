@@ -146,6 +146,23 @@ border-radius: 20px 20px 0 0;
   padding: 0;
   margin: 0;
 }
+
+/* Login Page */
+.login-container{
+ 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+ 
+}
+
+.login-container img{
+  width: auto;
+}
+
+
 /* Discovery page */
 
 /* -------------------------------------- Media Quires -------------------------------------- */

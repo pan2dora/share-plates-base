@@ -10,17 +10,27 @@
   <body>
  
     <!----------------------------Content---------------------------------------->
-    <div>
+   <div class="login-container">
+      <img
+            class="footer-logo"
+            src="public/images/sp-logo.svg"
+            alt="White and Red CodeSquad.org logo"
+        />
+    <div class="login-form-container">
       <!--------------------------Login Form------------------------------------->
   <form class="login-form">
  <label for="username"></label> Username </label>
  <input type="text" placeholder="Username"><br/>
  <label for="password"></label> Password </label>
  <input type="text" placeholder="Password"><br/>
- <button type="submit">Login</button>
+ <!-- using discover as a placeholder for the button -->
+
   </form>
+  <form>
+    <input type="button" value="Login" onclick="window.location.href='discover.html'"> 
+</form>
     </div>
     <!---------------------------------Footer --------------------------------->
-    
+    </div>
   </body>
 </html>
