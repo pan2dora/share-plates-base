@@ -92,12 +92,27 @@ footer {
 footer img {
   height: 100%;
 }
-.social-links,
-.footer-links {
-  display: flex;
 
+
+
+
+.social-links{
+  align-self: center;
   border: solid yellow;
 }
+
+.footer-links{
+  border: solid yellow;
+}
+
+.footer-links ul{
+  border: #333230 solid 3px;
+}
+
+
+
+
+
 
 /* .footer-links, .social-links{
 
