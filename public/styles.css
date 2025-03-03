@@ -166,24 +166,24 @@ border-radius: 20px 20px 0 0;
 /* Discovery page */
 
 /* Create Page */
-.create-form-container{
+.create-form-container, .update-container{
   border: orange solid 5px;
   text-align: left;
 }
 
-.create-form{
+.create-form,.update-form{
  border: black solid 2px;
  display: flex;
  flex-direction: column;
  height: 100%;
 }
 
-.create-form label{
+.create-form label, .update-form label{
   border: greenyellow solid 1px;
   
 }
 
-.create-form input{
+.create-form input, .update-form input{
   border: pink solid 1px;
   width: auto;
   height: 20px;
