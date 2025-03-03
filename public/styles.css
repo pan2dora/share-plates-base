@@ -47,7 +47,7 @@ header {
 }
 
 header img {
-margin-top: 4%;
+  margin-top: 4%;
 
   height: 100%;
 }
@@ -93,26 +93,18 @@ footer img {
   height: 100%;
 }
 
-
-
-
-.social-links{
+.social-links {
   align-self: center;
   border: solid yellow;
 }
 
-.footer-links{
+.footer-links {
   border: solid yellow;
 }
 
-.footer-links ul{
+.footer-links ul {
   border: #333230 solid 3px;
 }
-
-
-
-
-
 
 /* .footer-links, .social-links{
 
@@ -132,62 +124,53 @@ footer img {
   gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
-
-article img{
-border-radius: 20px 20px 0 0;
+article img {
+  border-radius: 20px 20px 0 0;
 }
 
-.card-content{
+.card-content {
   text-align: center;
   border: var(--lightgold) solid 2px;
   padding: 0;
   margin: 0;
 }
 
-/* Forms: Login Page  */
-.login-container, .create-form-container, .signup-container{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- justify-content: center;
- 
+/* Forms: Login Page, Create Page , Signup Page , Update Page   */
+
+form-wrapper{
+box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  
 }
 
-.login-container, .signup-container img{
-  width: auto;
+.login-form{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+
 }
 
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
 
 /* Discovery page */
 
 /* Create Page */
-.create-form-container, .update-container, .signup-container{
-  border: orange solid 5px;
-  text-align: left;
-}
 
-.create-form,.update-form,.signup-form{
- border: black solid 2px;
- display: flex;
- flex-direction: column;
- height: 100%;
-}
-
-.create-form label, .update-form label, .signup-form label{
-  border: greenyellow solid 1px;
-  
-}
-
-.create-form input, .update-form input .signup-form input{
-  border: pink solid 1px;
-  width: auto;
-  height: 20px;
-}
 /* -------------------------------------- Media Quires -------------------------------------- */
 
 /* Mobile 320-480*/
