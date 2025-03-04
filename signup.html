@@ -9,30 +9,39 @@
   </head>
   <body>
     <!----------------------------CONTENT---------------------------------------->
-    <div class="signup-container">
+    <div class="form-wrapper">
       <img
             class="footer-logo"
             src="public/images/sp-logo.svg"
             alt="White and Red CodeSquad.org logo"
         />
-    <div class="form-wrapper">
+    <div >
       <!--------------------------Login Form------------------------------------->
   <form class="signup-form">
     <!-- USERNAME -->
-    <label for="username">Ussername</label>
+     <div class="flex-input">
+    <label for="username">Username</label>
     <input type="text">
+  </div>
     <!-- EMAIL -->
+     <div class="flex-input">
     <label for="email">Email</label>
     <input type="text">
+  </div>
     <!-- PASSWORD -->
+     <div class="flex-input">
     <label for="password">Password</label>
     <input type="text">
+  </div>
     <!-- IMAGE UPLOAD -->
-    <input type="submit" value="Upload">
+    <div class="flex-input">
+      <label for="image">Profile Photo</label>
+      <input type="file" />
+    </div>
     <!-- SIGNUP BUTTON -->
    <input type="submit" value="Signup">
    </form>
-    </div>
+    
   </div>
     <!---------------------------------Footer --------------------------------->
   </body>

@@ -139,22 +139,69 @@ article img {
 
 /* Forms: Login Page, Create Page , Signup Page , Update Page   */
 
-form-wrapper{
-box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+
+
+.form-wrapper{
+display: flex;
+justify-content: center;
+height: 700px;
+  align-items: center;
+  border: #333230 solid 5px;
+}
+
+.create-form, .login-form, .update-form, .signup-form{
+ 
+  padding: 10px;
+  width: 400px;
+}
+
+.flex-input{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+input[type="text"], input[type ="password"]{
+padding: 10px;
+font-size: 18px;
+}
+
+label {
+  flex-basis: 130px;
+  margin-top:10px;
+  font-size: 20px;
   
 }
 
-.login-form{
+input[type="button"]{
+ width: 100%;
+ font-size: 20px;
+ padding: 10px;
+  border: none;
+  margin: 20px 0;
+}
+
+input[type="button"]:hover{
+  color: var(--lightgold);
+}
+
+.login-checkbox{
+  display: flex;
+
+}
+
+.login-checkbox div{
+  flex: 1;
+  text-align: right;
+}
+
+/* .login-form, {
  display: flex;
  flex-direction: column;
 justify-content: center;
 
-}
+} */
 
-input[type="text"],
+/* input[type="text"],
 select,
 textarea {
   width: 50%;
@@ -165,7 +212,7 @@ textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-}
+} */
 
 /* Discovery page */
 
