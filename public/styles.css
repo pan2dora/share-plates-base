@@ -27,8 +27,6 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  
-
 }
 /* Header */
 .nav-wrapper {
@@ -81,7 +79,7 @@ img {
   width: 250px;
 }
 /* Footer Styling */
-.footer-wrapper{
+.footer-wrapper {
   position: relative;
   bottom: 0;
 }
@@ -96,8 +94,7 @@ footer {
   /* border: solid yellow; */
   display: flex;
   justify-content: space-between;
- margin-top: auto;
-
+  margin-top: auto;
 }
 
 footer img {
@@ -148,61 +145,58 @@ article img {
   margin: 0;
 }
 
-
-
 /* Forms: Login Page, Create Page , Signup Page , Update Page   */
 
-
-
-.form-wrapper{
-display: flex;
-justify-content: center;
-height: 700px;
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 700px;
   align-items: center;
   border: #333230 solid 5px;
 }
 
-.create-form, .login-form, .update-form, .signup-form{
- 
+.create-form,
+.login-form,
+.update-form,
+.signup-form {
   padding: 10px;
   width: 400px;
 }
 
-.flex-input{
+.flex-input {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
 }
-input[type="text"], input[type ="password"]{
-padding: 10px;
-font-size: 18px;
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 18px;
 }
 
 label {
   flex-basis: 130px;
-  margin-top:10px;
+  margin-top: 10px;
   font-size: 20px;
-  
 }
 
-input[type="button"]{
- width: 100%;
- font-size: 20px;
- padding: 10px;
+input[type="button"] {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
   border: none;
   margin: 20px 0;
 }
 
-input[type="button"]:hover{
+input[type="button"]:hover {
   color: var(--lightgold);
 }
 
-.login-checkbox{
+.login-checkbox {
   display: flex;
-
 }
 
-.login-checkbox div{
+.login-checkbox div {
   flex: 1;
   text-align: right;
 }
@@ -227,7 +221,7 @@ label {
   display: inline-block;
 } */
 /* About Page */
-.about-img{
+.about-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -243,13 +237,24 @@ label {
 /* Mobile 320-480*/
 
 @media screen and (max-width: 480px) {
-  header img {
-    display: none;
-  }
+header{
+  justify-content: center;
+  gap: 40%;
+}
 
-  .card-container {
-    flex-direction: column;
-    justify-content: center;
+
+
+footer{
+ justify-content: center;
+}
+  header img,
+  .search-bar,
+  .primary-navigation,
+  .footer-links,
+  footer > img,
+  .product-of {
+    display: none;
+    
   }
 }
 
