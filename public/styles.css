@@ -106,16 +106,26 @@ footer img {
 }
 
 .social-links {
+
   align-self: center;
-  border: solid yellow;
+
+  /* border: solid yellow; */
+  
 }
+
+
 
 .footer-links {
   align-self: center;
-  border: solid yellow;
+  /* border: solid yellow; */
   text-align:center;
 }
 
+.footer-links ul{
+width: 100%;
+display: inline;
+padding: 0%;
+}
 
 /* .footer-links {
   border: #333230 solid 3px;
@@ -133,8 +143,24 @@ footer img {
 .social-links a:link {
   list-style-type: none;
   text-decoration: none;
+  
+ 
 }
 
+
+ a:visited{
+color: var(--pinkvelvet);
+}
+
+a:hover{
+  color: var(--coldbrew);
+  }
+
+  a:active {
+    color: var(--lightgold);
+    text-decoration: underline;
+    background-color: var(--lightgold) 20px;
+  }
 /* Content */
 /* --------------------------------------CARDS -------------------------------------- */
 .card-container {
@@ -311,7 +337,7 @@ footer{
   }
 
   header{
-   gap: 10%;
+   gap: 5%;
    flex: 1;
   }
   .fa-circle-user{
