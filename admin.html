@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/0cba11103d.js" crossorigin="anonymous"></script>
+   <script defer src="scripts.js"></script>
     <link rel="stylesheet" href="public/styles.css" type="text/css" />
-    <title>Document</title>
-</head>
-<body>
+    <title>Share Plate</title>
+  </head>
+    <!-- Header & Primary Nav container -->
     <div class="nav-wrapper">
-        <header>
-          <!--  Hambuger -->
-          <i class="fa-solid fa-bars"></i>
-          <!-----------------------------Logo ------------------------------------------>
-          <img
-            src="public/images/Share.svg"
-            alt="Animation of plate with share plate in the middle"
-            class="nav-logo"
-          />
-          <!-- Start of Primary Navbar -->
-  
-          <nav class="primary-navigation">
-            <!-----------------------------Navbar Links------------------------------------------>
-            <ul class="nav-links">
-              <li><a href="discover.html">Discover</a></li>
-              <li><a href="#">About</a></li>
-            </ul>
-          </nav>
-  
-          <!-----------------------------Search ------------------------------------------>
-  
-          <div class="search">
-            <input type="text" class="search-bar" placeholder="Search..." />
-            <!-- Search Icon -->
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-  
-          <!-- Profile Icon - This will eventually become a drop down-->
-          <div>
-            <i class="fa-solid fa-circle-user"></i>
-          </div>
-        </header>
-      </div>
+      <header>
+        <!--  Hambuger -->
+        <a href="javascript:void(0);" onclick="hamburgerFunction()"><i class="fa-solid fa-bars"></i></a>
+        <!-----------------------------Logo ------------------------------------------>
+        <img
+          src="public/images/Share.svg"
+          alt="Animation of plate with share plate in the middle"
+          class="nav-logo"
+        />
+        <!-- Start of Primary Navbar -->
+
+        <nav class="primary-navigation">
+          <!-----------------------------Navbar Links------------------------------------------>
+          <ul class="nav-links">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+
+        <!-----------------------------Search ------------------------------------------>
+
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search..." />
+          <!-- Search Icon -->
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Profile Icon - This will eventually become a drop down-->
+    <div>
+           <a href="admin.html"><i class="fa-solid fa-circle-user"></i></a>
+        </div>
+      </header>
+    </div>
   <!---------------------------------Content --------------------------------->
   <form class="signup-form">
     <!-- USERNAME -->

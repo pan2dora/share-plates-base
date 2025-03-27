@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/0cba11103d.js" crossorigin="anonymous"></script>
+   <script defer src="scripts.js"></script>
     <link rel="stylesheet" href="public/styles.css" type="text/css" />
     <title>Share Plate</title>
   </head>
@@ -11,7 +12,7 @@
     <div class="nav-wrapper">
       <header>
         <!--  Hambuger -->
-        <i class="fa-solid fa-bars"></i>
+        <a href="javascript:void(0);" onclick="hamburgerFunction()"><i class="fa-solid fa-bars"></i></a>
         <!-----------------------------Logo ------------------------------------------>
         <img
           src="public/images/Share.svg"
@@ -24,7 +25,7 @@
           <!-----------------------------Navbar Links------------------------------------------>
           <ul class="nav-links">
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
         </nav>
 
@@ -37,8 +38,8 @@
         </div>
 
         <!-- Profile Icon - This will eventually become a drop down-->
-        <div>
-          <i class="fa-solid fa-circle-user"></i>
+    <div>
+           <a href="admin.html"><i class="fa-solid fa-circle-user"></i></a>
         </div>
       </header>
     </div>

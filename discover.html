@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/0cba11103d.js" crossorigin="anonymous"></script>
+   <script defer src="scripts.js"></script>
     <link rel="stylesheet" href="public/styles.css" type="text/css" />
     <title>Share Plate</title>
   </head>
@@ -11,7 +12,7 @@
     <div class="nav-wrapper">
       <header>
         <!--  Hambuger -->
-        <i class="fa-solid fa-bars"></i>
+        <a href="javascript:void(0);" onclick="hamburgerFunction()"><i class="fa-solid fa-bars"></i></a>
         <!-----------------------------Logo ------------------------------------------>
         <img
           src="public/images/Share.svg"
@@ -102,10 +103,11 @@
         </article>
       </a>
     </div>
+     <!---------------------------------Content end --------------------------------->
     <!---------------------------------Footer --------------------------------->
     <footer>
        <!----------------------------- Logo --------------------------------->
-       <img src="public/images/share-tra.svg" alt="Animation of a plate with Share Plate scripted within">
+       <img class="footer-logo" src="public/images/share-tra.svg" alt="Animation of a plate with Share Plate scripted within">
      <!--------------------  SOCIAL LINKS ------------------------------------>
      
        <div class="social-links">
@@ -119,8 +121,9 @@
         </div>
        </div>
        <!-- WEBPAGE LINKS -->
+      
      <div class="footer-links">
-      <h2>LINKS</h2>
+        <h2>LINKS</h2>
         <ul>
         <a href="index.html"><li>Home</li></a>
         <a href="about.html"><li>About</li></a>
@@ -128,11 +131,13 @@
       </ul>
       </div>
   <!-- PRODUCT OF/BRANDING ICON -->
-      <div class="product-of"> 
+   <!-- Will add back later -->
+      <!-- <div class="product-of"> 
         <h2>A PRODUCT OF</h2>
         
 
-      </div>
+      </div> -->
     </footer>
+     <!---------------------------------Footer end --------------------------------->
   </body>
 </html>
